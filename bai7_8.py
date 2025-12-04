@@ -1,6 +1,4 @@
-print("Sinh vien: Nguyen Gia Huy")
-print("Ma so SV : 245752021610165")
-print("##########################")
+
 # Danh sach can ghi vao file
 my_list = ["bai1", "bai2", "bai3"]
 
@@ -10,3 +8,4 @@ with open("Vanban.txt", "w", encoding="utf-8") as file:
         file.write(item + "\n")  # moi phan tu tren mot dong
 
 print("Da ghi danh sach vao file 'Vanban.txt'")
+
