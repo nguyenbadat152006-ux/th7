@@ -1,6 +1,4 @@
-print("Sinh vien: Nguyen Gia Huy")
-print("Ma so SV : 245752021610165")
-print("##########################")
+
 # ten file
 filename = "Vanban.txt"
 
@@ -23,3 +21,4 @@ longest_words = list(set(longest_words))
 print("Nhung tu dai nhat trong van ban:")
 for word in longest_words:
     print(word, "(do dai:", len(word), ")")
+
