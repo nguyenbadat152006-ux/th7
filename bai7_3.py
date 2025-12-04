@@ -1,7 +1,4 @@
-print("Sinh vien: Nguyen Gia Huy")
-print("Ma so SV : 245752021610165")
-print("##########################")
-# Duong dan toi tep van ban
+
 ten_tep = "vanban.txt"
 
 try:
@@ -16,3 +13,4 @@ except FileNotFoundError:
     print(f"Khong tim thay tep: {ten_tep}")
 except Exception as e:
     print(f"Da xay ra loi: {e}")    
+
